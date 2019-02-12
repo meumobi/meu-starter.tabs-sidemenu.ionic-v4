@@ -15,14 +15,17 @@ export class AppComponent implements OnInit {
     {
       title: 'Login',
       url: '/login',
+      icon: 'log-in'
     },
     {
       title: 'Contact',
-      url: '/tabs/(contact:contact)'
+      url: '/tabs/(contact:contact)',
+      icon: 'person'
     },
     {
       title: 'About',
-      url: '/tabs/(about:about)'
+      url: '/tabs/(about:about)',
+      icon: 'information-circle'
     }
   ];
 
