@@ -19,12 +19,12 @@ export class AppComponent implements OnInit {
     },
     {
       title: 'Contact',
-      url: '/tabs/(contact:contact)',
+      url: '/tabs/contact',
       icon: 'person'
     },
     {
       title: 'About',
-      url: '/tabs/(about:about)',
+      url: '/tabs/about',
       icon: 'information-circle'
     }
   ];
